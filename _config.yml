@@ -11,6 +11,9 @@ description: with focus on aws-cli
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/fschaeffler.png
 
+certificate-csaa: /images/csaa-logo.png
+certificate-csaa-link: https://aws.amazon.com/certification/certified-solutions-architect-associate
+
 #
 # Flags below are optional...
 #

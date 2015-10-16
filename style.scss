@@ -122,30 +122,34 @@ img.centered {
   margin-right: auto
 }
 
-table{
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:2px solid $gray;
-    background-color: $lightGray;
-    width: 70%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: auto; 
-    margin-right: auto;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border:2px solid $gray;
+  background-color: $lightGray;
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto; 
+  margin-right: auto;
 }
 
-th{
-    background-color: $darkGray;
-    text-align: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    color: $white;
-    font-weight: bold;
+table.full-width {
+  width: 100%;
 }
 
-td{
-    padding-left: 15px;
-    padding-right: 15px;
+th {
+  background-color: $darkGray;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: $white;
+  font-weight: bold;
+}
+
+td {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 // Fixes images in popup boxes from Google Translate
